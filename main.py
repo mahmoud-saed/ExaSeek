@@ -47,7 +47,7 @@ class ExaSearchApp:
         self.create_status_bar()
         
         # Initialize Exa client
-        self.exa = Exa('e3180ef8-2983-425f-8fb3-2a59d3a69335')
+        self.exa = Exa('YOUR_KEY_HERE')
         
         # Bind Enter key to search
         self.search_entry.bind('<Return>', lambda e: self.perform_search())
